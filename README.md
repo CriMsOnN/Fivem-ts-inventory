@@ -42,7 +42,7 @@ I am sharing this for any developer that wants to expand this project.
 
 ## Credits
 
-Thanks to d0pet for the ts boilerplate
+Thanks to <a href="https://github.com/d0p3t/">d0p3t</a> for the ts boilerplate
 
 ## Photo
 
