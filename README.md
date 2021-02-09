@@ -10,8 +10,9 @@
   <a href="https://github.com/CriMsOnN/Fivem-ts-inventory/commits/main">
     <img src="https://img.shields.io/github/last-commit/CriMsOnN/Fivem-ts-inventory.svg?style=flat" alt="Last commit">
   </a>
-  <a href="">
-    <img src="https://img.shields.io/github/workflow/status/CriMsOnN/Fivem-ts-inventory/Node.js%20CI" alt="Workflow">
+  </a>
+  <a href="https://discord.gg/B2GNJ3bXgD">
+    <img src="https://img.shields.io/discord/798164540985442334?label=Discord" alt="Discord">
   </a>
 </p>
 
