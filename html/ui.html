@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Inventory</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+      integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-container">
+        <div class="main-header">
+          <span id="main-header-text">Player Inventory</span>
+          <div class="main-weight">
+            <span id="main-weight-text"> </span>
+          </div>
+        </div>
+        <div class="main-inventory"></div>
+        <div class="controls">
+          <div class="use">
+            <i class="far fa-hand-point-up"></i>
+            <span id="use">USE</span>
+          </div>
+          <div class="amount">
+            <i class="fas fa-sort-amount-up"></i>
+            <input type="number" id="amount" placeholder="Enter amount" />
+          </div>
+          <div class="give">
+            <i class="far fa-handshake"></i>
+            <span id="give">GIVE</span>
+          </div>
+        </div>
+      </div>
+      <div class="hotbar">
+        <span id="hotbar-text">Hot Bar</span>
+        <div class="hotbar-container"></div>
+      </div>
+    </div>
+  </body>
+</html>
